@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62B3F8ED1A87817700218F28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B3F8EC1A87817700218F28 /* main.m */; };
+		62B3F8F01A87817700218F28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B3F8EF1A87817700218F28 /* AppDelegate.m */; };
+		62B3F8F31A87817700218F28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B3F8F21A87817700218F28 /* ViewController.m */; };
+		62B3F8F61A87817700218F28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B3F8F41A87817700218F28 /* Main.storyboard */; };
+		62B3F8F81A87817700218F28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B3F8F71A87817700218F28 /* Images.xcassets */; };
+		62B3F8FB1A87817700218F28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62B3F8F91A87817700218F28 /* LaunchScreen.xib */; };
+		62B3F9071A87817700218F28 /* ____demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B3F9061A87817700218F28 /* ____demoTests.m */; };
+		62B3F9121A87819400218F28 /* UIView+gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B3F9111A87819400218F28 /* UIView+gesture.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62B3F9011A87817700218F28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62B3F8DF1A87817700218F28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B3F8E61A87817700218F28;
+			remoteInfo = "手势控制demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62B3F8E71A87817700218F28 /* 手势控制demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "手势控制demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B3F8EB1A87817700218F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B3F8EC1A87817700218F28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62B3F8EE1A87817700218F28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62B3F8EF1A87817700218F28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62B3F8F11A87817700218F28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62B3F8F21A87817700218F28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62B3F8F51A87817700218F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62B3F8F71A87817700218F28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		62B3F8FA1A87817700218F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		62B3F9001A87817700218F28 /* 手势控制demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "手势控制demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B3F9051A87817700218F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B3F9061A87817700218F28 /* ____demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____demoTests.m"; sourceTree = "<group>"; };
+		62B3F9101A87819400218F28 /* UIView+gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+gesture.h"; sourceTree = "<group>"; };
+		62B3F9111A87819400218F28 /* UIView+gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+gesture.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62B3F8E41A87817700218F28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B3F8FD1A87817700218F28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62B3F8DE1A87817700218F28 = {
+			isa = PBXGroup;
+			children = (
+				62B3F8E91A87817700218F28 /* 手势控制demo */,
+				62B3F9031A87817700218F28 /* 手势控制demoTests */,
+				62B3F8E81A87817700218F28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62B3F8E81A87817700218F28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62B3F8E71A87817700218F28 /* 手势控制demo.app */,
+				62B3F9001A87817700218F28 /* 手势控制demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62B3F8E91A87817700218F28 /* 手势控制demo */ = {
+			isa = PBXGroup;
+			children = (
+				62B3F9101A87819400218F28 /* UIView+gesture.h */,
+				62B3F9111A87819400218F28 /* UIView+gesture.m */,
+				62B3F8EE1A87817700218F28 /* AppDelegate.h */,
+				62B3F8EF1A87817700218F28 /* AppDelegate.m */,
+				62B3F8F11A87817700218F28 /* ViewController.h */,
+				62B3F8F21A87817700218F28 /* ViewController.m */,
+				62B3F8F41A87817700218F28 /* Main.storyboard */,
+				62B3F8F71A87817700218F28 /* Images.xcassets */,
+				62B3F8F91A87817700218F28 /* LaunchScreen.xib */,
+				62B3F8EA1A87817700218F28 /* Supporting Files */,
+			);
+			path = "手势控制demo";
+			sourceTree = "<group>";
+		};
+		62B3F8EA1A87817700218F28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62B3F8EB1A87817700218F28 /* Info.plist */,
+				62B3F8EC1A87817700218F28 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62B3F9031A87817700218F28 /* 手势控制demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				62B3F9061A87817700218F28 /* ____demoTests.m */,
+				62B3F9041A87817700218F28 /* Supporting Files */,
+			);
+			path = "手势控制demoTests";
+			sourceTree = "<group>";
+		};
+		62B3F9041A87817700218F28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62B3F9051A87817700218F28 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62B3F8E61A87817700218F28 /* 手势控制demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B3F90A1A87817700218F28 /* Build configuration list for PBXNativeTarget "手势控制demo" */;
+			buildPhases = (
+				62B3F8E31A87817700218F28 /* Sources */,
+				62B3F8E41A87817700218F28 /* Frameworks */,
+				62B3F8E51A87817700218F28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "手势控制demo";
+			productName = "手势控制demo";
+			productReference = 62B3F8E71A87817700218F28 /* 手势控制demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62B3F8FF1A87817700218F28 /* 手势控制demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B3F90D1A87817700218F28 /* Build configuration list for PBXNativeTarget "手势控制demoTests" */;
+			buildPhases = (
+				62B3F8FC1A87817700218F28 /* Sources */,
+				62B3F8FD1A87817700218F28 /* Frameworks */,
+				62B3F8FE1A87817700218F28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62B3F9021A87817700218F28 /* PBXTargetDependency */,
+			);
+			name = "手势控制demoTests";
+			productName = "手势控制demoTests";
+			productReference = 62B3F9001A87817700218F28 /* 手势控制demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62B3F8DF1A87817700218F28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = nacker;
+				TargetAttributes = {
+					62B3F8E61A87817700218F28 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					62B3F8FF1A87817700218F28 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 62B3F8E61A87817700218F28;
+					};
+				};
+			};
+			buildConfigurationList = 62B3F8E21A87817700218F28 /* Build configuration list for PBXProject "手势控制demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62B3F8DE1A87817700218F28;
+			productRefGroup = 62B3F8E81A87817700218F28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62B3F8E61A87817700218F28 /* 手势控制demo */,
+				62B3F8FF1A87817700218F28 /* 手势控制demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62B3F8E51A87817700218F28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B3F8F61A87817700218F28 /* Main.storyboard in Resources */,
+				62B3F8FB1A87817700218F28 /* LaunchScreen.xib in Resources */,
+				62B3F8F81A87817700218F28 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B3F8FE1A87817700218F28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62B3F8E31A87817700218F28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B3F8F31A87817700218F28 /* ViewController.m in Sources */,
+				62B3F8F01A87817700218F28 /* AppDelegate.m in Sources */,
+				62B3F9121A87819400218F28 /* UIView+gesture.m in Sources */,
+				62B3F8ED1A87817700218F28 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B3F8FC1A87817700218F28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B3F9071A87817700218F28 /* ____demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62B3F9021A87817700218F28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B3F8E61A87817700218F28 /* 手势控制demo */;
+			targetProxy = 62B3F9011A87817700218F28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62B3F8F41A87817700218F28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62B3F8F51A87817700218F28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62B3F8F91A87817700218F28 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62B3F8FA1A87817700218F28 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62B3F9081A87817700218F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		62B3F9091A87817700218F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62B3F90B1A87817700218F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "手势控制demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62B3F90C1A87817700218F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "手势控制demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62B3F90E1A87817700218F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "手势控制demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/手势控制demo.app/手势控制demo";
+			};
+			name = Debug;
+		};
+		62B3F90F1A87817700218F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "手势控制demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/手势控制demo.app/手势控制demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62B3F8E21A87817700218F28 /* Build configuration list for PBXProject "手势控制demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B3F9081A87817700218F28 /* Debug */,
+				62B3F9091A87817700218F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B3F90A1A87817700218F28 /* Build configuration list for PBXNativeTarget "手势控制demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B3F90B1A87817700218F28 /* Debug */,
+				62B3F90C1A87817700218F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62B3F90D1A87817700218F28 /* Build configuration list for PBXNativeTarget "手势控制demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B3F90E1A87817700218F28 /* Debug */,
+				62B3F90F1A87817700218F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62B3F8DF1A87817700218F28 /* Project object */;
+}
